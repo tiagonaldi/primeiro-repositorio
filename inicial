@@ -1,0 +1,16 @@
+meu-projeto-data/
+├── dados/                   # Pasta para arquivos de dados (CSV, JSON, SQLite, etc.)
+│   ├── raw/                 # Dados brutos (não processados)
+│   └── processed/           # Dados tratados
+├── scripts-sql/             # Scripts SQL (para consultas, criação de tabelas, etc.)
+│   ├── queries.sql
+│   └── schema.sql
+├── notebooks-python/        # Jupyter Notebooks ou scripts Python
+│   ├── analise.ipynb
+│   └── etl.py
+├── dashboards-bi/           # Arquivos de BI (Power BI, Tableau, Metabase)
+│   ├── dashboard.pbix
+│   └── README_BI.md
+├── docs/                    # Documentação adicional
+├── .gitignore               # Ignora arquivos desnecessários
+└── README.md                # Instruções do projeto
